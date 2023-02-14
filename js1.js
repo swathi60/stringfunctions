@@ -43,12 +43,12 @@ function c2(){
        if (cnum.startsWith("4550"))
         {
           cardimg.style.display="block"; 
-          cardimg.src="visa.png";
+          cardimg.src="./visa.png";
            error.style.display="none"; 
        } 
        else if(cnum.startsWith("5540")){
             cardimg.style.display="block"; 
-              cardimg.src="mastercard.png"; 
+              cardimg.src="./mastercard.png"; 
               error.style.display="none";
        }
        else{ error.style.display="block";
