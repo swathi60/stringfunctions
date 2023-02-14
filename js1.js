@@ -101,19 +101,19 @@ function c2(){
       
       if(country=="india")
       {
-        flag.src="india.png";
+        flag.src="./india.png";
         mobile.placeholder="+91 and 10 digits";
         rge=/\+91\d{10}/;
       }
       else if(country=="us")
       {
-        flag.src="us.png";
+        flag.src="./us.png";
         mobile.placeholder="+(1)(425) 555-0100";
         rge=/\+\(1\)\([0-9]{3}\)\s[0-9]{3}-[0-9]{4}/;
       }
       else if(country=="uk")
       {
-        flag.src="uk.png";
+        flag.src="./uk.png";
         mobile.placeholder="+(44)(20) 1234 5678";
         rge=/\+\(44\)\([0-9]{2}\)\s[0-9]{4}\s[0-9]{4}/;
       }
