@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stfunctions2</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="./bootstrap.css">
+   <link rel="stylesheet" href="../../ui/bootstrap-icons-1.10.3/bootstrap-icons-1.10.3/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles1.css" type="text/css">
+    <script src="js1.js" type="text/javascript"></script>
+</head>
+<body>
+    
+     <div class="container-fluid">
+     <h2 style="text-transform: uppercase;">Welcome to string functions checking page</h2><br>
+      <h5>Click to know 2nd latter of your name</h5>
+      <button class="btn btn-primary" onclick="c1()" id="charat2"><span class="bi bi-check"></span> click </button><br><br>
+      
+      <h5>Enter alphabet/number to know it's code </h5>
+      <input type="text" class="container form-control" placeholder="Enter alphabet" id="charcd2">
+      <button class="btn btn-secondary" onclick="c2()" >code</button>
+      
+      <h5>Enter your card number</h5>
+      <dl>
+        <dt ></dt> <div class="l1">
+        <dd class="input-group"><input type="text" onblur="verifycard()" id="card1"><img class="input-group-text" width="60" id="cardimg"></dd></div>
+        <dd class="input-group-text d1" id="error4"></dd> 
+      
+
+        <dt><h5>Enter skype id</h5> </dt>
+        <dd><input type="text" id="skype" onblur="verifyid()"  ></dd>
+        <dd class=" a1" id="a2"><a href="https://www.skype.com/en/">login</a></dd>
+        <dd  id="error5"></dd>
+      </dl> 
+      
+     </div>
+    
+    <div class="container">
+     <h5 style="text-align: center; ">Enter details with commas to get details in list format</h5>
+      <input style="margin-bottom: 30px;" type="text" id="c3" onblur="det()" class="input-group">
+    </div>
+    <form action="submit">
+<div class="container">
+  <h5>Enter name</h5>
+  <input type="text" onblur="trimname()" id="tri" class="input-group">
+   <p id="e1"></p>
+</div>  </form>
+
+<div class="text-center">
+  <h5>Verify your mobile number</h5>
+   
+    <dl >
+      <dt > <h6 class="text-primary">Select your country</h6></dt>
+      <dd>
+      <select name="form-select" id="Country" onchange="countryverify()" style="background-color: rgba(212, 208, 208, 0.582);">
+        <option >Select-country</option>
+        <option >india</option>
+        <option >us</option>
+        <option >uk</option>
+      </select>
+      </dd><p class="text-danger" id="error6"></p>
+      
+      <dt><h6 class="text-secondary">Enter mobile number</h6> </dt>
+      <dd class="input-group container">
+        <input type="text" id="mobile" class=" form-control " >
+        <span class="input-group-text"><img id="flag" width="50"></span>
+         
+      </dd>
+      <dd> 
+        <button class="btn btn-outline-success" onclick="verifynum()" >verifynum</button>
+      </dd>
+    </dl>
+    <p id="error7" class="text-danger"></p> 
+</div>
+
+    <script src="./bootstrap.js" type="text/javascript"></script>
+    <script src="../../ui/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+</html>

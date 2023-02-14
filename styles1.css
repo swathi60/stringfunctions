@@ -1,0 +1,54 @@
+
+
+body{
+    background-color: rgb(212, 252, 252);
+}
+.container-fluid{
+    text-align: center;
+    background-color: rgb(211, 248, 248);
+}
+h2{
+    padding-top: 20px;
+    color: blue;
+}
+h5{
+    color: brown; 
+    margin-top :20px; text-align: center;
+}
+.btn-primary{
+   
+}
+.btn-secondary{
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+}
+.d1, #error5{
+    display: none;
+    background-color: red;
+    color: white;
+}
+#a2{
+    display: none; padding-bottom: 10px;
+}
+#skype{
+    margin-bottom: 10px;
+}
+
+#t{
+    position: absolute;
+    
+    left: 50%;
+    transform: translatex(-50%);
+}
+.l1{
+    margin-left: 42%;
+}
+#tri{
+    margin-bottom: 20px; 
+} 
+#e1{ background-color: red;
+       color: white; text-align: center;
+}
+
+#Country:hover{ margin-bottom: 40px;}
+#error6{ display: none;}
